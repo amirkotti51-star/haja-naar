@@ -1,3 +1,4 @@
+import './theme.css';
 import { createClient, type Session, type User } from '@supabase/supabase-js';
 
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL as string | undefined;
