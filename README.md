@@ -1,5 +1,11 @@
-# Haja-Naar
+# خِدمة — Haja-Naar
 
-Migration of Haja-Naar from AppDeploy to Vercel + Supabase.
+نسخة مستقلة من المشروع بعد إخراجه من AppDeploy.
 
-The production source is kept in the repository root. Do not upload credentials or `.env` files.
+## التقنية
+- Vite + TypeScript
+- Vercel Functions
+- Supabase Auth / PostgreSQL / Storage
+- Konnect للدفع Premium
+
+راجع `README-MIGRATION.md` قبل النشر، وشغّل `supabase-schema.sql` في Supabase.
