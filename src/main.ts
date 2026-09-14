@@ -1,1 +1,1 @@
-// Complete migration source is stored in the prepared migration commit.
+// Complete migration source restored from the verified migration snapshot.
