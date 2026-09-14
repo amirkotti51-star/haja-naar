@@ -8,6 +8,10 @@
     <meta name="google-site-verification" content="_64IdBNXT7nUlPSsj4g6LZ2m86eVRXhcynZ5jtLmPHY">
     <meta name="robots" content="index, follow, max-image-preview:large">
     <meta name="theme-color" content="#2563eb">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="خِدمة">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="خِدمة">
     <meta property="og:title" content="خِدمة | دليل الخدمات في العالم العربي">
@@ -15,12 +19,16 @@
     <meta property="og:url" content="/">
     <meta property="og:locale" content="ar">
     <meta name="twitter:card" content="summary_large_image">
-    <link rel="canonical" href="/"><link rel="stylesheet" href="./src/styles.css">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="/manifest.webmanifest">
+    <link rel="canonical" href="/">
+    <link rel="stylesheet" href="./src/styles.css">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"خِدمة","url":"/","description":"منصة عربية للخدمات ومقدميها مع تواصل مباشر.","potentialAction":{"@type":"SearchAction","target":"/?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"خِدمة","url":"/"}</script>
 </head>
 <body>
-    <div id="app"></div>
+    <div id="app" aria-live="polite"></div>
+    <noscript>يرجى تفعيل JavaScript لاستخدام منصة خِدمة.</noscript>
     <script type="module" src="./src/main.ts"></script>
 </body>
 </html>
